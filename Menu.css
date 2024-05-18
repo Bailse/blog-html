@@ -1,20 +1,22 @@
-body { background-image:url(note\ bg.jpg);}
-h1 { border: 3px outset rgb(248, 55, 151); 
-    border-radius: 100px;
-    font-size: 120px;
-     font-family:Arial, Helvetica, sans-serif ;
+body { background-image:url(Congratulations\ Congratulations.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    
+   }
+
+h1 { 
+    font-size: 12vw;
+     font-family: 'TH Sarabun New','arial' ;
      text-align: center;
-     position: static;
+     position: relative;
      display: block;
-     margin-top: 100px;
-     margin-bottom: 100px;
-     margin-right: 150px;
-     margin-left: 80px;
-     
+    margin:auto;
 
 }
 
-a {
+ba2 {
     border: 3px outset rgb(248, 55, 151);
     text-align: center;
     background-color: antiquewhite;
@@ -23,10 +25,22 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
     display: block;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 785px;
-    position: fixed;
-    
+    position: relative;
+    bottom: -200px;
+    margin: auto;
+    width: 50%;
 }
+div { font-family: 'TH Sarabun New';
+        size: 80px;
+        display: relative ;
+        text-align: center;
+        position: relative ;
+        align-items: center;
+        bottom:48%;
+        top: 20vw;
+        
+}
+[role=button]{
+    background-color:rgb(152, 161, 243) ;
+}
+
