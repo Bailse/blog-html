@@ -3,9 +3,8 @@ body { background-image:url(Congratulations\ Congratulations.png);
     background-repeat: no-repeat;
     background-attachment:fixed ;
     background-size: cover;
+    border: 200px;
     
-    justify-content: center;
-    align-items: center;
 
     
 
@@ -36,28 +35,45 @@ b2 {
     margin: auto;
     width: 50%;
 }
-div { font-family: 'TH Sarabun New';
-        size: 80px;
-        display: relative ;
-        text-align: center;
-        position: relative ;
-        align-items: center;
-        bottom:48%;
-        top: 20vw;
+
         
-}
+
 [role=button]{
     background-color:rgb(152, 161, 243) ;
 }
 
-@media (min-width: 900px) {
-    #b2 {
-        position: absolute;
-        top: 200px;
-    }
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-family:'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(203, 189, 217);
+}
+#container {
+    text-align: center;
+    position: relative;
+    bottom: -400px;
+}
 
-}
-Button {
-    bottom: 100px;
-    
-}
+@media (max-width: 700px) 
+{
+    #container {
+        text-align: center;
+        position: relative;
+        bottom: -400px;
+    }
+    }
+    @media (min-width: 800px) {
+        #container {
+            text-align: center;
+            position: relative;
+            bottom: -200px;
+        }
+    }
+    @media (min-width: 1000px) {
+        #container {
+            text-align: center;
+            position: relative;
+            bottom: -300px;
+        }
+    }

@@ -13,24 +13,26 @@
         #first{
             position: relative;
             top: 350px;
-            left: 13%;
-            width: 25%;
+            left: 6%;
+            width: 30%;
         }
         #topletter{
             position: absolute;
             left: 43%;
-            top: 34%;
-            font-size: 64px;
+            top: 32%;
+            font-size: 1px;
             font-family:'Courier New', Courier, monospace;
             line-height: 176%;
         }
         #bottomletter{
             position: absolute;
-            left: 43%;
-            top: 46%;
-            font-size: 50px;
+            left: 41%;
+            right: 20px;
+            top: 23%;
+            font-size: 30px;
             font-family:'Courier New', Courier, monospace;
             line-height: 176%;
+
         }
         #sec{
             position: absolute;
@@ -55,7 +57,30 @@
             font-family:'Courier New', Courier, monospace;
             line-height: 176%;
         }
-
+@media screen and (max-width:580px) {
+    #first{
+        width: 45%;
+        top: 90px;
+        left: 25%;
+    }
+    #bottomletter{
+        font-size: 20px;
+        top: 39%;
+        left: 5%;
+        right: 5%;
+    }
+}
+@media screen and (min-width:1000px) {
+    #bottomletter{
+        font-size: 40px;
+        right: 5%;
+        left: 43%;
+        top: 13%;
+    }
+    #first{
+        top: 200px;
+    }
+}
     </style>
 </head>
 <body>

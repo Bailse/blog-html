@@ -8,10 +8,10 @@ if (a=="hello ")
 else if(a==""){
     window.location.href = "page 3.html"
 }
-else if(a==""){
-  window.location.href = "" //1//
-}else if(a==""){
-  window.location.href = ""//3//
+else if(a=="Jobjabsublor"){
+  window.location.href = "1jab.html" //1//
+}else if(a=="ssss"){
+  window.location.href = "3supergolf.html"//3//
 }else if(a=="lnwslot888"){
   window.location.href = "4dum.html"//4//
 }else if(a=="chaishooter.com"){
